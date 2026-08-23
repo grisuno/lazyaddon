@@ -1,0 +1,13 @@
+# Declarative project file: run addons without writing code.
+# Non-programmers can install and run addons purely by editing this file.
+
+install_root: external
+addons_dir: examples
+
+addons:
+  - name: demo
+    install: false
+    run: true
+    params:
+      who: world
+      count: "3"

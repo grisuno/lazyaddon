@@ -1,0 +1,82 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lazyaddon"
+version = "1.0.0"
+description = "Declarative tool/extension manager. Turn any GitHub/GitLab project into an installable, runnable addon from a single YAML file."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "GPL-3.0-or-later"}
+authors = [{ name = "Gris Iscomeback", email = "grisiscomeback@gmail.com" }]
+keywords = ["plugin", "addon", "marketplace", "yaml", "extensions", "tooling"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "PyYAML>=6.0,<7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.4",
+    "mypy>=1.10",
+    "bandit>=1.7",
+    "hypothesis>=6.100",
+    "mutmut>=3.2",
+    "build>=1.2",
+]
+
+[project.scripts]
+lazyaddon = "lazyaddon.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/grisuno/lazyaddon"
+Repository = "https://github.com/grisuno/lazyaddon"
+Issues = "https://github.com/grisuno/lazyaddon/issues"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/lazyaddon",
+    "/tests",
+    "/examples",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["lazyaddon"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "RUF"]
+ignore = ["E501", "B008", "RUF012"]
+# S602: shell=True is the core addon contract; runtime values are shlex-quoted
+# and commands are length/null-byte validated by the security policy (SECURITY.md).
+extend-ignore = ["S602"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["S101", "S105", "S106", "S108"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_unused_ignores = true
+warn_return_any = true
+
+[tool.mutmut]
+paths_to_mutate = ["lazyaddon"]
+only_mutate = ["lazyaddon/models.py", "lazyaddon/placeholders.py", "lazyaddon/security.py"]
+pytest_add_cli_args_test_selection = ["tests/"]

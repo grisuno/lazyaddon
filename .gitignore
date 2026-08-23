@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mutmut-cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# mutation testing artifact
+mutants/
+.mutmut-cache/
