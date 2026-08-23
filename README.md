@@ -1,4 +1,4 @@
-# lazyaddon
+# [lazyaddon](https://pypi.org/project/lazyaddon/)
 
 Declarative tool and extension manager. Turn any GitHub/GitLab project into an
 installable, runnable addon from a single YAML file — then use it
@@ -20,6 +20,8 @@ as versioned, shareable YAML addons.
 - Fully typed, single-file-per-contract, DRY and SOLID.
 
 ## Installation
+
+- [https://pypi.org/project/lazyaddon/](https://pypi.org/project/lazyaddon/)
 
 ```bash
 pip install lazyaddon
