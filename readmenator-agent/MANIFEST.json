@@ -1,0 +1,23 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-16T04:34:28Z",
+  "project_root": "/tmp/push_lazyaddon_20260916_013256",
+  "files": 18,
+  "symbols": 177,
+  "imports": 868,
+  "resolved_imports": 50,
+  "security_findings": 0,
+  "languages": {
+    "py": 18
+  },
+  "entrypoints": [
+    "lazyaddon/__main__.py"
+  ],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
