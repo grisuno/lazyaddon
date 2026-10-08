@@ -1,14 +1,14 @@
 # Subsystem: lazyaddon
 
 ## lazyaddon/__init__.py
-- Doc: lazyaddon: declarative tool and extension manager.
 - Layer: utility
+- Doc: lazyaddon: declarative tool and extension manager.  Turns any GitHub/GitLab project into an installable, runnable addon 
 - Language: py
 - Depends on: `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`
 
 ## lazyaddon/__main__.py
-- Doc: Console entry point for lazyaddon.
 - Layer: utility
+- Doc: Console entry point for lazyaddon.  Exposes subcommands for discovery, installation, execution, marketplace registration
 - Language: py
 - Symbols:
   - `build_parser` (function, line 20) `def build_parser()`
@@ -22,16 +22,16 @@
 - Imported by: `tests/test_cli.py`
 
 ## lazyaddon/config.py
-- Doc: Centralized configuration contract for the lazyaddon engine.
 - Layer: infrastructure
+- Doc: Centralized configuration contract for the lazyaddon engine.  Holds every tunable knob used across the package so no mag
 - Language: py
 - Symbols:
   - `AddonConfig` (class, line 33) `class AddonConfig`
 - Imported by: `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/conftest.py`, `tests/test_engine.py`, `tests/test_models.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`, `tests/test_runner.py`, `tests/test_security.py`
 
 ## lazyaddon/engine.py
-- Doc: Facade contract orchestrating the lazyaddon lifecycle.
 - Layer: utility
+- Doc: Facade contract orchestrating the lazyaddon lifecycle.  ``LazyAddonEngine`` is the single entry point consumers import. 
 - Language: py
 - Symbols:
   - `LazyAddonEngine` (class, line 32) `class LazyAddonEngine`
@@ -57,8 +57,8 @@
 - Imported by: `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `tests/test_engine.py`, `tests/test_runner.py`
 
 ## lazyaddon/installer.py
-- Doc: Installation contract: clone and build an addon from its upstream repo.
 - Layer: utility
+- Doc: Installation contract: clone and build an addon from its upstream repo.  ``AddonInstaller`` is responsible for materiali
 - Language: py
 - Symbols:
   - `AddonInstaller` (class, line 23) `class AddonInstaller`
@@ -71,8 +71,8 @@
 - Imported by: `lazyaddon/__init__.py`, `lazyaddon/engine.py`
 
 ## lazyaddon/models.py
-- Doc: Domain models for the lazyaddon schema.
 - Layer: business_logic
+- Doc: Domain models for the lazyaddon schema.  Defines the typed representation of an addon YAML document. The contract is a p
 - Language: py
 - Symbols:
   - `AddonError` (class, line 53) `class AddonError(Exception)`
@@ -93,8 +93,8 @@
 - Imported by: `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_engine.py`, `tests/test_models.py`, `tests/test_runner.py`, `tests/test_security.py`
 
 ## lazyaddon/placeholders.py
-- Doc: Placeholder substitution contract.
 - Layer: utility
+- Doc: Placeholder substitution contract.  Resolves ``{name}`` and ``{{ name }}`` tokens inside command strings using the value
 - Language: py
 - Symbols:
   - `PlaceholderEngine` (class, line 27) `class PlaceholderEngine`
@@ -105,8 +105,8 @@
 - Imported by: `lazyaddon/__init__.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/runner.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`
 
 ## lazyaddon/runner.py
-- Doc: Process execution and addon dispatch contract.
 - Layer: utility
+- Doc: Process execution and addon dispatch contract.  ``CommandRunner`` wraps :func:`subprocess.run` behind a small, injectabl
 - Language: py
 - Symbols:
   - `CommandResult` (class, line 30) `class CommandResult`
@@ -129,8 +129,8 @@
 - Imported by: `lazyaddon/__init__.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `tests/conftest.py`, `tests/test_runner.py`
 
 ## lazyaddon/security.py
-- Doc: Security policy contract for the lazyaddon engine.
 - Layer: utility
+- Doc: Security policy contract for the lazyaddon engine.  Defines the defensive boundaries applied before any network fetch, f
 - Language: py
 - Symbols:
   - `SecurityPolicy` (class, line 27) `class SecurityPolicy`

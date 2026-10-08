@@ -1,13 +1,13 @@
 # Subsystem: tests
 
 ## tests/__init__.py
-- Doc: Test package for lazyaddon.
 - Layer: testing
+- Doc: Test package for lazyaddon.
 - Language: py
 
 ## tests/conftest.py
-- Doc: Shared fixtures for the lazyaddon test suite.
 - Layer: testing
+- Doc: Shared fixtures for the lazyaddon test suite.  Provides a fake :class:`ProcessRunner` that records invocations instead o
 - Language: py
 - Symbols:
   - `FakeRunner` (class, line 19) `class FakeRunner`
@@ -21,8 +21,8 @@
 - Imported by: `tests/test_cli.py`, `tests/test_engine.py`, `tests/test_runner.py`
 
 ## tests/test_cli.py
-- Doc: BDD-style CLI tests exercising the console script end to end.
 - Layer: testing
+- Doc: BDD-style CLI tests exercising the console script end to end.
 - Language: py
 - Symbols:
   - `_run` (function, line 15) `def _run(argv)`
@@ -39,8 +39,8 @@
 - Depends on: `lazyaddon/__main__.py`, `tests/conftest.py`
 
 ## tests/test_engine.py
-- Doc: BDD/TDD tests for the engine facade: discovery, run, marketplace, project.
 - Layer: testing
+- Doc: BDD/TDD tests for the engine facade: discovery, run, marketplace, project.
 - Language: py
 - Symbols:
   - `_write_addon` (function, line 17) `def _write_addon(tmp_path, data, name)`
@@ -64,8 +64,8 @@
 - Depends on: `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `tests/conftest.py`
 
 ## tests/test_models.py
-- Doc: BDD/TDD behavioural tests for addon schema parsing and validation.
 - Layer: testing
+- Doc: BDD/TDD behavioural tests for addon schema parsing and validation.
 - Language: py
 - Symbols:
   - `_load` (function, line 11) `def _load(raw, config)`
@@ -88,8 +88,8 @@
 - Depends on: `lazyaddon/config.py`, `lazyaddon/models.py`
 
 ## tests/test_placeholders.py
-- Doc: BDD/TDD tests for the placeholder substitution engine.
 - Layer: testing
+- Doc: BDD/TDD tests for the placeholder substitution engine.
 - Language: py
 - Symbols:
   - `_engine` (function, line 11) `def _engine()`
@@ -108,8 +108,8 @@
 - Depends on: `lazyaddon/config.py`, `lazyaddon/placeholders.py`
 
 ## tests/test_placeholders_property.py
-- Doc: Property-based tests for the placeholder engine using hypothesis.
 - Layer: testing
+- Doc: Property-based tests for the placeholder engine using hypothesis.  These complement the unit tests by checking the core 
 - Language: py
 - Symbols:
   - `test_known_single_token_resolves` (function, line 22) `def test_known_single_token_resolves(key, value)`
@@ -118,8 +118,8 @@
 - Depends on: `lazyaddon/config.py`, `lazyaddon/placeholders.py`
 
 ## tests/test_runner.py
-- Doc: BDD/TDD tests for the installer and runner contracts.
 - Layer: testing
+- Doc: BDD/TDD tests for the installer and runner contracts.
 - Language: py
 - Symbols:
   - `_engine` (function, line 16) `def _engine(tmp_path, runner)`
@@ -139,8 +139,8 @@
 - Depends on: `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `tests/conftest.py`
 
 ## tests/test_security.py
-- Doc: BDD/TDD tests for the security policy contract.
 - Layer: testing
+- Doc: BDD/TDD tests for the security policy contract.
 - Language: py
 - Symbols:
   - `_policy` (function, line 16) `def _policy(config)`
