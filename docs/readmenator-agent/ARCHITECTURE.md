@@ -1,0 +1,74 @@
+# Architecture
+
+## Internal Dependencies
+
+- `lazyaddon/__init__.py` -> `lazyaddon/config.py`
+- `lazyaddon/__init__.py` -> `lazyaddon/engine.py`
+- `lazyaddon/__init__.py` -> `lazyaddon/installer.py`
+- `lazyaddon/__init__.py` -> `lazyaddon/models.py`
+- `lazyaddon/__init__.py` -> `lazyaddon/placeholders.py`
+- `lazyaddon/__init__.py` -> `lazyaddon/runner.py`
+- `lazyaddon/__init__.py` -> `lazyaddon/security.py`
+- `lazyaddon/__main__.py` -> `lazyaddon/config.py`
+- `lazyaddon/__main__.py` -> `lazyaddon/engine.py`
+- `lazyaddon/__main__.py` -> `lazyaddon/models.py`
+- `lazyaddon/engine.py` -> `lazyaddon/config.py`
+- `lazyaddon/engine.py` -> `lazyaddon/installer.py`
+- `lazyaddon/engine.py` -> `lazyaddon/models.py`
+- `lazyaddon/engine.py` -> `lazyaddon/placeholders.py`
+- `lazyaddon/engine.py` -> `lazyaddon/runner.py`
+- `lazyaddon/engine.py` -> `lazyaddon/security.py`
+- `lazyaddon/installer.py` -> `lazyaddon/config.py`
+- `lazyaddon/installer.py` -> `lazyaddon/models.py`
+- `lazyaddon/installer.py` -> `lazyaddon/placeholders.py`
+- `lazyaddon/installer.py` -> `lazyaddon/runner.py`
+- `lazyaddon/installer.py` -> `lazyaddon/security.py`
+- `lazyaddon/models.py` -> `lazyaddon/config.py`
+- `lazyaddon/placeholders.py` -> `lazyaddon/config.py`
+- `lazyaddon/runner.py` -> `lazyaddon/config.py`
+- `lazyaddon/runner.py` -> `lazyaddon/models.py`
+- `lazyaddon/runner.py` -> `lazyaddon/placeholders.py`
+- `lazyaddon/security.py` -> `lazyaddon/config.py`
+- `lazyaddon/security.py` -> `lazyaddon/models.py`
+- `tests/conftest.py` -> `lazyaddon/config.py`
+- `tests/conftest.py` -> `lazyaddon/runner.py`
+- `tests/test_cli.py` -> `lazyaddon/__main__.py`
+- `tests/test_cli.py` -> `tests/conftest.py`
+- `tests/test_engine.py` -> `lazyaddon/config.py`
+- `tests/test_engine.py` -> `lazyaddon/engine.py`
+- `tests/test_engine.py` -> `lazyaddon/models.py`
+- `tests/test_engine.py` -> `tests/conftest.py`
+- `tests/test_models.py` -> `lazyaddon/config.py`
+- `tests/test_models.py` -> `lazyaddon/models.py`
+- `tests/test_placeholders.py` -> `lazyaddon/config.py`
+- `tests/test_placeholders.py` -> `lazyaddon/placeholders.py`
+- `tests/test_placeholders_property.py` -> `lazyaddon/config.py`
+- `tests/test_placeholders_property.py` -> `lazyaddon/placeholders.py`
+- `tests/test_runner.py` -> `lazyaddon/config.py`
+- `tests/test_runner.py` -> `lazyaddon/engine.py`
+- `tests/test_runner.py` -> `lazyaddon/models.py`
+- `tests/test_runner.py` -> `lazyaddon/runner.py`
+- `tests/test_runner.py` -> `tests/conftest.py`
+- `tests/test_security.py` -> `lazyaddon/config.py`
+- `tests/test_security.py` -> `lazyaddon/models.py`
+- `tests/test_security.py` -> `lazyaddon/security.py`
+
+## External Imports
+
+- `lazyaddon/__init__.py` -> __future__
+- `lazyaddon/__main__.py` -> __future__, argparse, collections.abc, json, logging, sys
+- `lazyaddon/config.py` -> __future__, dataclasses
+- `lazyaddon/engine.py` -> __future__, collections.abc, logging, pathlib, typing, yaml
+- `lazyaddon/installer.py` -> __future__, collections.abc, pathlib, typing
+- `lazyaddon/models.py` -> __future__, dataclasses, typing
+- `lazyaddon/placeholders.py` -> __future__, collections.abc, re, shlex, typing
+- `lazyaddon/runner.py` -> __future__, collections.abc, dataclasses, os, pathlib, subprocess, typing
+- `lazyaddon/security.py` -> __future__, pathlib, urllib.parse
+- `tests/conftest.py` -> __future__, collections.abc, pathlib, pytest, typing
+- `tests/test_cli.py` -> __future__, pathlib, pytest, yaml
+- `tests/test_engine.py` -> __future__, pathlib, pytest, yaml
+- `tests/test_models.py` -> __future__, pytest
+- `tests/test_placeholders.py` -> __future__, pytest
+- `tests/test_placeholders_property.py` -> __future__, hypothesis
+- `tests/test_runner.py` -> __future__, pathlib, pytest
+- `tests/test_security.py` -> __future__, pathlib, pytest

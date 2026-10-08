@@ -1,0 +1,2641 @@
+{
+  "concepts": [
+    {
+      "name": "addon",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/conftest.py",
+        "tests/test_cli.py",
+        "tests/test_engine.py",
+        "tests/test_models.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 118,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "engine",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_engine.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 32,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "command",
+      "files": [
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/conftest.py",
+        "tests/test_placeholders.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 75,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "lazyaddon",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/__init__.py",
+        "tests/conftest.py"
+      ],
+      "mentions": 24,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "raises",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_engine.py",
+        "tests/test_models.py",
+        "tests/test_placeholders.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 24,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "config",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/conftest.py",
+        "tests/test_placeholders.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "install",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_engine.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 53,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "path",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/conftest.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 34,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "repo",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/security.py",
+        "tests/test_cli.py",
+        "tests/test_engine.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 23,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "values",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_models.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py"
+      ],
+      "mentions": 22,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "when",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 22,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "runtime",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 21,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "value",
+      "files": [
+        "lazyaddon/__main__.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "run",
+      "files": [
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "tests/conftest.py",
+        "tests/test_cli.py",
+        "tests/test_engine.py"
+      ],
+      "mentions": 30,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "directory",
+      "files": [
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_cli.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "placeholders",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "contract",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "args",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_engine.py"
+      ],
+      "mentions": 29,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "url",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/security.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "yaml",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/conftest.py"
+      ],
+      "mentions": 21,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "params",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_models.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "project",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "tests/test_cli.py",
+        "tests/test_engine.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tool",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "tests/test_models.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "param",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_cli.py",
+        "tests/test_engine.py",
+        "tests/test_models.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "returns",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_engine.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "mapping",
+      "files": [
+        "lazyaddon/__main__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_models.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "string",
+      "files": [
+        "lazyaddon/__main__.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_models.py",
+        "tests/test_placeholders.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "unknown",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/placeholders.py",
+        "tests/test_cli.py",
+        "tests/test_engine.py",
+        "tests/test_models.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "configuration",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "error",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "file",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "tests/test_engine.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "schema",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/security.py",
+        "tests/test_models.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "parameter",
+      "files": [
+        "lazyaddon/__main__.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "placeholder",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "shell",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_placeholders.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "return",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/conftest.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "host",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "root",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/security.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "git",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/security.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "inside",
+      "files": [
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/test_placeholders.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "lazy",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "any",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "none",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_engine.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "single",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/runner.py",
+        "tests/test_placeholders.py",
+        "tests/test_placeholders_property.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "under",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "strings",
+      "files": [
+        "lazyaddon/config.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "lazyaddon/security.py",
+        "tests/conftest.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "via",
+      "files": [
+        "lazyaddon/__init__.py",
+        "lazyaddon/__main__.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "lazyaddon/runner.py",
+        "tests/test_cli.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bdd",
+      "files": [
+        "tests/test_cli.py",
+        "tests/test_engine.py",
+        "tests/test_models.py",
+        "tests/test_placeholders.py",
+        "tests/test_runner.py",
+        "tests/test_security.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "name",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/models.py",
+        "lazyaddon/placeholders.py",
+        "tests/test_engine.py",
+        "tests/test_models.py"
+      ],
+      "mentions": 35,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "runner",
+      "files": [
+        "lazyaddon/engine.py",
+        "lazyaddon/installer.py",
+        "lazyaddon/runner.py",
+        "tests/conftest.py",
+        "tests/test_runner.py"
+      ],
+      "mentions": 30,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "addon",
+      "target": "command",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "lazyaddon",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 0.98,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "engine",
+      "verb": "depends_on",
+      "strength": 0.93,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "configuration",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "contract",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "when",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "command",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "lazyaddon",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "path",
+      "verb": "depends_on",
+      "strength": 0.89,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "configuration",
+      "verb": "depends_on",
+      "strength": 0.87,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "contract",
+      "verb": "depends_on",
+      "strength": 0.87,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "when",
+      "verb": "depends_on",
+      "strength": 0.87,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.84,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "strings",
+      "verb": "depends_on",
+      "strength": 0.84,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "yaml",
+      "verb": "depends_on",
+      "strength": 0.84,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "install",
+      "verb": "depends_on",
+      "strength": 0.82,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "runtime",
+      "verb": "depends_on",
+      "strength": 0.82,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "under",
+      "verb": "depends_on",
+      "strength": 0.82,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "values",
+      "verb": "depends_on",
+      "strength": 0.82,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "mapping",
+      "verb": "depends_on",
+      "strength": 0.8,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "runtime",
+      "verb": "depends_on",
+      "strength": 0.8,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "under",
+      "verb": "depends_on",
+      "strength": 0.8,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "values",
+      "verb": "depends_on",
+      "strength": 0.8,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "yaml",
+      "verb": "depends_on",
+      "strength": 0.8,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "any",
+      "verb": "depends_on",
+      "strength": 0.78,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "host",
+      "verb": "depends_on",
+      "strength": 0.78,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "lazy",
+      "verb": "depends_on",
+      "strength": 0.78,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "run",
+      "verb": "depends_on",
+      "strength": 0.78,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "addon",
+      "verb": "depends_on",
+      "strength": 0.78,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "path",
+      "verb": "depends_on",
+      "strength": 0.78,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "strings",
+      "verb": "depends_on",
+      "strength": 0.78,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "lazy",
+      "verb": "depends_on",
+      "strength": 0.76,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "mapping",
+      "verb": "depends_on",
+      "strength": 0.76,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 0.73,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "lazyaddon",
+      "verb": "depends_on",
+      "strength": 0.73,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.73,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "install",
+      "verb": "depends_on",
+      "strength": 0.73,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "git",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "repo",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "root",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "schema",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "url",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "configuration",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "contract",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "engine",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "when",
+      "verb": "depends_on",
+      "strength": 0.71,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.69,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "param",
+      "verb": "depends_on",
+      "strength": 0.69,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "any",
+      "verb": "depends_on",
+      "strength": 0.69,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "host",
+      "verb": "depends_on",
+      "strength": 0.69,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "command",
+      "verb": "depends_on",
+      "strength": 0.69,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 0.69,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "lazyaddon",
+      "verb": "depends_on",
+      "strength": 0.69,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "strings",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "param",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "run",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "lazyaddon",
+      "target": "command",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "lazyaddon",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "lazyaddon",
+      "target": "configuration",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "lazyaddon",
+      "target": "contract",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "lazyaddon",
+      "target": "engine",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "lazyaddon",
+      "target": "when",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "args",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "error",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "raises",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "returns",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "shell",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "addon",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "path",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "runtime",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "under",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "values",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "yaml",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "git",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "repo",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "root",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "schema",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "shell",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/placeholders.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "url",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py"
+      ]
+    },
+    {
+      "source": "install",
+      "target": "command",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "install",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "install",
+      "target": "lazyaddon",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "configuration",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "contract",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "engine",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "when",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "addon",
+      "target": "return",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/installer.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__init__.py->lazyaddon/security.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "install",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "lazy",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py"
+      ]
+    },
+    {
+      "source": "command",
+      "target": "mapping",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py"
+      ]
+    },
+    {
+      "source": "engine",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__init__.py->lazyaddon/config.py",
+        "lazyaddon/__init__.py->lazyaddon/engine.py",
+        "lazyaddon/__init__.py->lazyaddon/models.py",
+        "lazyaddon/__init__.py->lazyaddon/runner.py",
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "strings",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/security.py"
+      ]
+    },
+    {
+      "source": "raises",
+      "target": "yaml",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py",
+        "lazyaddon/models.py->lazyaddon/config.py",
+        "lazyaddon/placeholders.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "repo",
+      "target": "command",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "repo",
+      "target": "lazyaddon",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py",
+        "lazyaddon/installer.py->lazyaddon/models.py",
+        "lazyaddon/installer.py->lazyaddon/placeholders.py",
+        "lazyaddon/installer.py->lazyaddon/runner.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "command",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 0.62,
+      "confidence": "INFERRED",
+      "evidence": [
+        "lazyaddon/__main__.py->lazyaddon/config.py",
+        "lazyaddon/__main__.py->lazyaddon/engine.py",
+        "lazyaddon/__main__.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/config.py",
+        "lazyaddon/engine.py->lazyaddon/installer.py",
+        "lazyaddon/engine.py->lazyaddon/models.py",
+        "lazyaddon/engine.py->lazyaddon/placeholders.py",
+        "lazyaddon/engine.py->lazyaddon/runner.py",
+        "lazyaddon/engine.py->lazyaddon/security.py",
+        "lazyaddon/installer.py->lazyaddon/config.py"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `addon` centralizes 14 files; Antithesis: `any` pulls 6 files with 6 shared (Jaccard 0.43); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `args` pulls 7 files with 6 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `bdd` pulls 6 files with 5 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `command` pulls 12 files with 10 shared (Jaccard 0.62); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `config` pulls 10 files with 8 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `configuration` pulls 7 files with 6 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `contract` pulls 8 files with 7 shared (Jaccard 0.47); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `directory` pulls 8 files with 8 shared (Jaccard 0.57); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `engine` pulls 13 files with 10 shared (Jaccard 0.59); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `addon` centralizes 14 files; Antithesis: `error` pulls 6 files with 5 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?"
+  ]
+}

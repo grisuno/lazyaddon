@@ -1,0 +1,120 @@
+# Concepts
+
+Nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+
+- `addon` | files=14 | mentions=118 | `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/conftest.py`, `tests/test_cli.py`
+- `engine` | files=13 | mentions=32 | `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_engine.py`
+- `command` | files=12 | mentions=75 | `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/conftest.py`, `tests/test_placeholders.py`
+- `lazyaddon` | files=11 | mentions=24 | `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/__init__.py`
+- `raises` | files=10 | mentions=24 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_engine.py`, `tests/test_models.py`, `tests/test_placeholders.py`, `tests/test_runner.py`
+- `config` | files=10 | mentions=18 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/conftest.py`, `tests/test_placeholders.py`, `tests/test_runner.py`
+- `install` | files=9 | mentions=53 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_engine.py`, `tests/test_runner.py`, `tests/test_security.py`
+- `path` | files=9 | mentions=34 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/conftest.py`, `tests/test_runner.py`, `tests/test_security.py`
+- `repo` | files=9 | mentions=23 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/security.py`, `tests/test_cli.py`, `tests/test_engine.py`, `tests/test_runner.py`, `tests/test_security.py`
+- `values` | files=9 | mentions=22 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_models.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`
+- `when` | files=9 | mentions=22 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_runner.py`, `tests/test_security.py`
+- `runtime` | files=9 | mentions=21 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`, `tests/test_runner.py`
+- `value` | files=9 | mentions=14 | `lazyaddon/__main__.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`, `tests/test_runner.py`
+- `run` | files=8 | mentions=30 | `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `tests/conftest.py`, `tests/test_cli.py`, `tests/test_engine.py`
+- `directory` | files=8 | mentions=17 | `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_cli.py`
+- `placeholders` | files=8 | mentions=16 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`, `tests/test_runner.py`
+- `contract` | files=8 | mentions=8 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_security.py`
+- `args` | files=7 | mentions=29 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_engine.py`
+- `url` | files=7 | mentions=27 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/security.py`, `tests/test_runner.py`, `tests/test_security.py`
+- `yaml` | files=7 | mentions=21 | `lazyaddon/__init__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/conftest.py`
+- `params` | files=7 | mentions=20 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_models.py`, `tests/test_runner.py`
+- `project` | files=7 | mentions=19 | `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `tests/test_cli.py`, `tests/test_engine.py`
+- `tool` | files=7 | mentions=18 | `lazyaddon/__init__.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `tests/test_models.py`, `tests/test_security.py`
+- `param` | files=7 | mentions=17 | `lazyaddon/config.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_cli.py`, `tests/test_engine.py`, `tests/test_models.py`
+- `returns` | files=7 | mentions=16 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_engine.py`
+- `mapping` | files=7 | mentions=13 | `lazyaddon/__main__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_models.py`
+- `string` | files=7 | mentions=11 | `lazyaddon/__main__.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_models.py`, `tests/test_placeholders.py`
+- `unknown` | files=7 | mentions=10 | `lazyaddon/engine.py`, `lazyaddon/placeholders.py`, `tests/test_cli.py`, `tests/test_engine.py`, `tests/test_models.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`
+- `configuration` | files=7 | mentions=9 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`
+- `error` | files=6 | mentions=19 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`
+- `file` | files=6 | mentions=18 | `lazyaddon/__init__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `tests/test_engine.py`
+- `schema` | files=6 | mentions=18 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/security.py`, `tests/test_models.py`
+- `parameter` | files=6 | mentions=16 | `lazyaddon/__main__.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`
+- `placeholder` | files=6 | mentions=15 | `lazyaddon/config.py`, `lazyaddon/installer.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`
+- `shell` | files=6 | mentions=15 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_placeholders.py`
+- `return` | files=6 | mentions=12 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/conftest.py`
+- `host` | files=6 | mentions=11 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_security.py`
+- `root` | files=6 | mentions=11 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/security.py`, `tests/test_security.py`
+- `git` | files=6 | mentions=10 | `lazyaddon/__init__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/security.py`
+- `inside` | files=6 | mentions=10 | `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/test_placeholders.py`
+- `lazy` | files=6 | mentions=10 | `lazyaddon/__init__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`
+- `any` | files=6 | mentions=9 | `lazyaddon/__init__.py`, `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`
+- `none` | files=6 | mentions=9 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_engine.py`
+- `single` | files=6 | mentions=9 | `lazyaddon/__init__.py`, `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/runner.py`, `tests/test_placeholders.py`, `tests/test_placeholders_property.py`
+- `under` | files=6 | mentions=9 | `lazyaddon/config.py`, `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`
+- `strings` | files=6 | mentions=8 | `lazyaddon/config.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `lazyaddon/security.py`, `tests/conftest.py`
+- `via` | files=6 | mentions=7 | `lazyaddon/__init__.py`, `lazyaddon/__main__.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `lazyaddon/runner.py`, `tests/test_cli.py`
+- `bdd` | files=6 | mentions=6 | `tests/test_cli.py`, `tests/test_engine.py`, `tests/test_models.py`, `tests/test_placeholders.py`, `tests/test_runner.py`, `tests/test_security.py`
+- `name` | files=5 | mentions=35 | `lazyaddon/engine.py`, `lazyaddon/models.py`, `lazyaddon/placeholders.py`, `tests/test_engine.py`, `tests/test_models.py`
+- `runner` | files=5 | mentions=30 | `lazyaddon/engine.py`, `lazyaddon/installer.py`, `lazyaddon/runner.py`, `tests/conftest.py`, `tests/test_runner.py`
+
+## Verb Edges
+
+- `addon` --depends_on--> `command` (strength 1.00)
+- `addon` --depends_on--> `lazyaddon` (strength 1.00)
+- `addon` --depends_on--> `config` (strength 0.98)
+- `addon` --depends_on--> `engine` (strength 0.93)
+- `addon` --depends_on--> `configuration` (strength 0.91)
+- `addon` --depends_on--> `contract` (strength 0.91)
+- `addon` --depends_on--> `when` (strength 0.91)
+- `engine` --depends_on--> `command` (strength 0.91)
+- `engine` --depends_on--> `config` (strength 0.91)
+- `engine` --depends_on--> `lazyaddon` (strength 0.91)
+- `addon` --depends_on--> `path` (strength 0.89)
+- `engine` --depends_on--> `configuration` (strength 0.87)
+- `engine` --depends_on--> `contract` (strength 0.87)
+- `engine` --depends_on--> `when` (strength 0.87)
+- `addon` --depends_on--> `directory` (strength 0.84)
+- `addon` --depends_on--> `strings` (strength 0.84)
+- `addon` --depends_on--> `yaml` (strength 0.84)
+- `addon` --depends_on--> `install` (strength 0.82)
+- `addon` --depends_on--> `runtime` (strength 0.82)
+- `addon` --depends_on--> `under` (strength 0.82)
+- `addon` --depends_on--> `values` (strength 0.82)
+- `addon` --depends_on--> `mapping` (strength 0.80)
+- `engine` --depends_on--> `runtime` (strength 0.80)
+- `engine` --depends_on--> `under` (strength 0.80)
+- `engine` --depends_on--> `values` (strength 0.80)
+- `engine` --depends_on--> `yaml` (strength 0.80)
+- `addon` --depends_on--> `any` (strength 0.78)
+- `addon` --depends_on--> `host` (strength 0.78)
+- `addon` --depends_on--> `lazy` (strength 0.78)
+- `addon` --depends_on--> `run` (strength 0.78)
+- `engine` --depends_on--> `addon` (strength 0.78)
+- `engine` --depends_on--> `path` (strength 0.78)
+- `engine` --depends_on--> `strings` (strength 0.78)
+- `engine` --depends_on--> `lazy` (strength 0.76)
+- `engine` --depends_on--> `mapping` (strength 0.76)
+- `command` --depends_on--> `config` (strength 0.73)
+- `command` --depends_on--> `lazyaddon` (strength 0.73)
+- `engine` --depends_on--> `directory` (strength 0.73)
+- `engine` --depends_on--> `install` (strength 0.73)
+- `addon` --depends_on--> `git` (strength 0.71)
+- `addon` --depends_on--> `repo` (strength 0.71)
+- `addon` --depends_on--> `root` (strength 0.71)
+- `addon` --depends_on--> `schema` (strength 0.71)
+- `addon` --depends_on--> `url` (strength 0.71)
+- `command` --depends_on--> `configuration` (strength 0.71)
+- `command` --depends_on--> `contract` (strength 0.71)
+- `command` --depends_on--> `engine` (strength 0.71)
+- `command` --depends_on--> `when` (strength 0.71)
+- `addon` --depends_on--> `file` (strength 0.69)
+- `addon` --depends_on--> `param` (strength 0.69)
+
+## Dialectic
+
+- Thesis: `addon` centralizes 14 files; Antithesis: `any` pulls 6 files with 6 shared (Jaccard 0.43); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `args` pulls 7 files with 6 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `bdd` pulls 6 files with 5 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `command` pulls 12 files with 10 shared (Jaccard 0.62); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `config` pulls 10 files with 8 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `configuration` pulls 7 files with 6 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `contract` pulls 8 files with 7 shared (Jaccard 0.47); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `directory` pulls 8 files with 8 shared (Jaccard 0.57); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `engine` pulls 13 files with 10 shared (Jaccard 0.59); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `addon` centralizes 14 files; Antithesis: `error` pulls 6 files with 5 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
