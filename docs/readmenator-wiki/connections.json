@@ -1,0 +1,122 @@
+[
+  {
+    "community_a": 0,
+    "community_b": 2,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: lazyaddon/__init__.py imports lazyaddon/config.py.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 3,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: lazyaddon/__init__.py imports lazyaddon/models.py.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: lazyaddon/__main__.py imports lazyaddon/engine.py.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 3,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: lazyaddon/__main__.py imports lazyaddon/models.py.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 2,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: lazyaddon/__main__.py imports lazyaddon/config.py.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 3,
+    "community_b": 2,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: lazyaddon/models.py imports lazyaddon/config.py.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 1,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: lazyaddon/__init__.py reaches tests/test_cli.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 1,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: lazyaddon/installer.py reaches tests/test_cli.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 1,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: lazyaddon/placeholders.py reaches tests/test_cli.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 3,
+    "community_b": 1,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: lazyaddon/security.py reaches tests/test_cli.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 2,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: tests/test_cli.py reaches tests/test_models.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py) with no import path between community 0 (lazyaddon: engine) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer testing) with no import path between community 1 (lazyaddon: __main__) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 2,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer testing) with no import path between community 2 (lazyaddon: config) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 3,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py) with no import path between community 3 (lazyaddon: models) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  }
+]
